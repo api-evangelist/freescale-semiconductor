@@ -1,8 +1,28 @@
 aid: freescale-semiconductor
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freescale-semiconductor.png
 name: Freescale Semiconductor
-description: Freescale Semiconductor is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Freescale Semiconductor, Inc. was an American semiconductor manufacturer headquartered in Austin,
+  Texas, created in 2004 from the spin-off of Motorola's Semiconductor Products Sector. Freescale
+  designed and produced embedded processing hardware — microcontrollers (Kinetis, S08), i.MX
+  applications processors, ColdFire and QorIQ/PowerPC communications processors, digital signal
+  processors, RF, analog, and sensor products — for the automotive, networking, industrial, and
+  consumer markets. In December 2015 Freescale merged with NXP Semiconductors in a roughly $11.8B deal
+  and ceased to exist as an independent company; its freescale.com domain now redirects to nxp.com.
+  Freescale was a hardware/silicon company, not a web-API provider: it published no public REST/HTTP
+  API, developer portal, or OpenAPI, so there is no live API surface for the enrichment pipeline to
+  harvest.
 url: https://raw.githubusercontent.com/api-evangelist/freescale-semiconductor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,29 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Merged into NXP Semiconductors in December 2015; freescale.com 301-redirects to nxp.com.
+x-successor: nxp-semiconductors
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Semiconductors
+- Hardware
+- Embedded
+- Microcontrollers
+- Processors
+- Automotive
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
