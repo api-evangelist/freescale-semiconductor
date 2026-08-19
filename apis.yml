@@ -33,7 +33,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-note: Merged into NXP Semiconductors in December 2015; freescale.com 301-redirects to nxp.com.
 x-successor: nxp-semiconductors
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
